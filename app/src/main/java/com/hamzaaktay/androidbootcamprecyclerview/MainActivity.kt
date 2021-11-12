@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity(), KopeklerAdapter.SecilenKopekLister {
             KopekModel(R.drawable.leonberger, "Leonberger")
         )
 
-
+        //sadgadsfgasdfasd
         //Adapter Baglama
         val kopeklerAdapter = KopeklerAdapter(kopeklerList,this)
         binding.kopeklerRecyclerView.layoutManager = LinearLayoutManager(applicationContext,LinearLayoutManager.VERTICAL,false)
